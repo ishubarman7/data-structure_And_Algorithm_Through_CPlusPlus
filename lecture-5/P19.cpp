@@ -1,3 +1,4 @@
+// this code is basically gives the no. of note(rs100, rs50, rs20, rs1) required to have some anount of money
 
 #include<iostream>
 using namespace std; 
@@ -8,12 +9,14 @@ int main ()
     cout<< " Enter the value of n: ";
     cin>>n;
 
+    //  initially lets assume we have zero nubers of note.
+
     int rs100_note = 0;
     int rs50_note = 0;
     int rs20_note = 0;
     int rs1_note = 0;
 
-
+                //    belove switch case update the value of rs100_note and update it for next switch statement.
     switch(n>=100)
 
         {
@@ -22,7 +25,8 @@ int main ()
              break;
 
         }
-
+               
+               //    belove switch case update the value of rs50_note and update it for next switch statement.
     switch(n>=50)
 
         {
@@ -31,7 +35,8 @@ int main ()
              break;
 
         }
-
+                
+                //    belove switch case update the value of rs20_note and update it for next switch statement.
     switch(n>=20)
 
         {
@@ -41,6 +46,7 @@ int main ()
 
         }
 
+                //    belove switch case update the value of rs1_note.
     switch(n>=1)
 
         {
