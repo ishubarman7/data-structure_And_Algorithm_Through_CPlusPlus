@@ -1,18 +1,18 @@
-//switch statement first
+//switch statement
 #include<iostream>
 using namespace std;
 
 int main ()
 {
     char ch = 'a';
-    int num = 65;
+    int num = 1;
 
     cout<<endl;
 
-    switch(char(num))
+    switch(ch)
     {
 
-        case  'A': cout << "First"<<endl;
+        case  1: cout << "First"<<endl;
                  cout << "First again"<<endl;
                  break;
 

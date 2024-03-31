@@ -50,10 +50,10 @@ int main ()
 
         }    
 
-        cout<< rs100_note << endl;
-        cout<< rs50_note << endl;
-        cout<< rs20_note << endl;
-        cout<< rs1_note << endl;
+        cout<<"Number of 100 rs notes Required: "<< rs100_note << endl;
+        cout<<"Number of 50 rs notes Required: "<< rs50_note << endl;
+        cout<<"Number of 20 rs notes Required: "<< rs20_note << endl;
+        cout<<"Number of 1 rs notes Required: "<< rs1_note << endl;
 
 
 
