@@ -9,17 +9,26 @@ int main()
     int n;
     cout<<"Enter theh value of n: ";
     cin>>n;
-
+    int ans = 0;
     for(int i=0; i<= 30; i++)
     {
-        int ans  = pow(2,i);
+        ans  = pow(2,i);
+
+        // int ans = ans * 2;
 
         if (ans ==n)
         {
-            cout<< "It is a power of 2";
-
+            cout<< "It is a power of 2"<<endl;
+            break;
         }
+         
     }
 
-    cout<< "it is not";
-}
+   if(ans != n)
+    {
+        cout<< "it is not"<<endl;
+    }
+          cout<<ans;
+    }
+    
+

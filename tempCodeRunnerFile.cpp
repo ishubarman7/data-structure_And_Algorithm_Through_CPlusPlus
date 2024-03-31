@@ -1,1 +1,0 @@
-int star = row-1;
