@@ -27,12 +27,11 @@ int nCr(int n, int r)
 }
 int main ()
 {
-    int n;
-    int r;
-    cout << "enter the values of n and r respectively" << endl;
-    cin>>n;
-    cin>>r;
+    int a;
+    int b;
+    cin>>a;
+    cin>>b;
 
-    int ans = nCr(n, r);
-    cout<<"nCr of "<<n<<" and "<<r<<" is "<<ans<<endl;
+    int ans = nCr(a,b);
+    cout<<"nCr of "<<a<<" and "<<b<<" is "<<ans<<endl;
 }
