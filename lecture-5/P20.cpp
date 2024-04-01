@@ -1,3 +1,10 @@
+/*
+
+this is the first code in which we use functions functionality that is reuse
+ of same function multiple times by just calling the same function multiple times 
+ instead of making the same function again and again.
+
+*/
 
 #include<iostream>
 using namespace std;

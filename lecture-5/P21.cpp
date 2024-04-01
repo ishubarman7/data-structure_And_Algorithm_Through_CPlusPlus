@@ -3,7 +3,10 @@
 #include<iostream>
 using namespace std;
 
-int power()
+                      //if we note give the input parameters and initialize the variables under the curly brases og funtion
+                     // then we dont have to intialise the variable at the time of using this funcion again and agin as we see in p20.cpp
+                     
+int power()         
 {   
     int x,y;
     cin>>x>>y;
