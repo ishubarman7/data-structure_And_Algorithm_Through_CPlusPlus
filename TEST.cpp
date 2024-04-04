@@ -30,7 +30,7 @@ int main ()
 {
     int n;
     int r;
-    cout << "enter the values of n and r respectively" << endl;
+    cout << "Enter the values of n and r respectively" << endl;
     cin>>n;
     cin>>r;
 
