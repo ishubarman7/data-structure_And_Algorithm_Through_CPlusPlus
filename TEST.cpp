@@ -26,6 +26,7 @@ int nCr(int n, int r)
 
     return final_ans;
 }
+
 int main ()
 {
     int n;
