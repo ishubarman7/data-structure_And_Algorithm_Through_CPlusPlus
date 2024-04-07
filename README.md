@@ -1,2 +1,2 @@
-# datastructer_And_Algorothm-Trough_CPlusPlus
+# datastructur_And_Algorithm-Through_CPlusPlus
  
