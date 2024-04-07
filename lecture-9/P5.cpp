@@ -9,9 +9,9 @@ int main()
     {
         cin >> arr[i];
     }
-         cout<<"printing the array"<<endl;
+         cout<<"Printing the array "<<endl;
     for(int i = 0;i < 5;i++)
     {
-        cout << arr[i] << endl;
+        cout << arr[i] << "  ";
     }
 }
