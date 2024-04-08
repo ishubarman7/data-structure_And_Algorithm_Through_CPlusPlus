@@ -4,7 +4,8 @@ using namespace std;
 int main()
 {
 
-            //    only the first element of the array become 1 and rest of the element save the value as 0(zero).
+            //    Only the first element of the array become 1 and rest of the element save the value as 0(zero).
+
     int arr_1[100] = {1};
 
     for(int i = 0; i < 100; i++)
