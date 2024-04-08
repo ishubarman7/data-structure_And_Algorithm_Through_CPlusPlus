@@ -19,6 +19,7 @@ int main()
 
                 // all the element in this situation become zero but there is a twist in this case.
                 // (first element become 0 because i declare it to be 0 but the rest of element become 0 because there is no declaration for the rest element after declaring first element ).
+                
     int arr[100] = {0};
 
     for(int i = 0; i < 100; i++)
