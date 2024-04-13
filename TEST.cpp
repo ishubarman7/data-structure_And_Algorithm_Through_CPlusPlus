@@ -1,40 +1,30 @@
-
+//  *  *  *  *  *
+//  *  *  *  *  *
+//  *  *  *  *  *
+//  *  *  *  *  *
+//  *  *  *  *  *
 #include<iostream>
 using namespace std;
 
-int factorial(int n)
-{
-    int fact = 1;
-
-
-    for (int i = 1; i <= n; i++)
-    {
-        fact = fact * i;
-    }
-
-    return fact;
-
-}
-
-int nCr(int n, int r)
-{
-    int numerator = factorial(n);
-
-    int denominator = factorial(r) / factorial(n-r);
-
-    int final_ans = numerator / denominator;
-
-    return final_ans;
-}
-
-int main ()
+int main()
 {
     int n;
-    int r;
-    cout << "Enter the values of n and r respectively" << endl;
-    cin>>n;
-    cin>>r;
+    cout<< "enter the value of n: ";
+    cin>> n;
 
-    int ans = nCr(n, r);
-    cout<<"nCr of "<<n<<" and "<<r<<" is "<<ans<<endl;
+    int i = 1;
+
+    while(i<=n)
+    {
+        int j = 1;
+        while(j<=n)
+        {
+            cout<< " * ";
+            j = j + 1;
+        }
+
+         cout<<endl;
+
+            i = i + 1;
+    }
 }
