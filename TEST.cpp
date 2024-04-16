@@ -1,31 +1,28 @@
-//  *  *  *  *  *
-//  *  *  *  *  *
-//  *  *  *  *  *
-//  *  *  *  *  *
-//  *  *  *  *  *
+
 #include<iostream>
 using namespace std;
 
-int main()
+int main ()
 {
-    int n;
+   int n;
     cout<< "enter the value of n: ";
     cin>> n;
 
-    int i = 1;
+    int i = 2;
 
-    while(i<=n)
+    while( i<n)
     {
-        int j = 1;
-        while(j<=n)
+        // divide hogaya to not prime hain
+        if(n%i==0)
         {
-            cout<< " * ";
-            j = j + 1;
+            cout<< "not prime for "<< i <<endl;
         }
+        else
+        {
+            cout<< "its a prime no. for "<< i <<endl;
+        }
+        i = i + 1;
 
-         cout<<endl;
-
-            i = i + 1;
     }
-    
+ 
 }
