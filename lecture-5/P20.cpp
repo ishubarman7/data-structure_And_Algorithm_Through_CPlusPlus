@@ -30,18 +30,21 @@ int main()
 
     int answer = power(a, b);
     cout<< answer << endl;
+    cout<<endl;
 
     int c , d;
     cin>> c >> d ;
 
     int answer1 = power(c, d);
     cout<< answer1 << endl;
+    cout<<endl;
 
     int e , f;
     cin>> e >> f ;
 
     int answer2 = power(e, f);
     cout<< answer2 << endl;
+    cout<<endl;
 
     int g , h;
     cin>> g >> h ;
