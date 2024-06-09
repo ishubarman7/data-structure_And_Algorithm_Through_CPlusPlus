@@ -29,26 +29,26 @@ int main()
     cin>> a >> b ;
 
     int answer = power(a, b);
-    cout<< a << "to the power" << b << "is" << answer <<endl;
+    cout<< a << " to the power " << b << " is: " << answer <<endl;
     cout<<endl;
 
     int c , d;
     cin>> c >> d ;
 
     int answer1 = power(c, d);
-    cout<< answer1 << endl;
+    cout<< c << " to the power " << d << " is: "  <<  answer1 << endl;
     cout<<endl;
 
     int e , f;
     cin>> e >> f ;
 
     int answer2 = power(e, f);
-    cout<< answer2 << endl;
+    cout<< e << " to the power " << f << " is: "  << answer2 << endl;
     cout<<endl;
 
     int g , h;
     cin>> g >> h ;
 
     int answer3 = power(g, h);
-    cout<< answer3 << endl;
+    cout<< g << " to the power " << h << " is: " << answer3 << endl;
 }
