@@ -29,7 +29,7 @@ int main()
     cin>> a >> b ;
 
     int answer = power(a, b);
-    cout<< answer << endl;
+    cout<< a << "to the power" << b << "is" << answer <<endl;
     cout<<endl;
 
     int c , d;
