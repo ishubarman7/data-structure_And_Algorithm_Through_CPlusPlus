@@ -22,7 +22,6 @@ int power(int x, int y)
 
 }
 
-
 int main()
 {
     int a , b;
