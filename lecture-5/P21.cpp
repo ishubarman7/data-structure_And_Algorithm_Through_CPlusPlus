@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-                      //if we note give the input parameters and initialize the variables under the curly brases og funtion
+                      //if we note give the input parameters and initialize the variables under the curly brases on funtion
                      // then we dont have to intialise the variable at the time of using this funcion again and agin as we see in p20.cpp
 
 int power()         
