@@ -4,12 +4,10 @@ using namespace std;
 
 int main ()
 {
-    char ch = 'a';
-    int num = 1;
 
     cout<<endl;
 
-    switch(ch)
+    switch(1)
     {
 
         case  1: cout << "First"<<endl;

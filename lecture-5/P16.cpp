@@ -10,7 +10,7 @@ int main ()
 
     cout<<endl;
 
-    switch(ch)
+    switch(1)
     {
 
         case  1: cout << "First"<<endl;

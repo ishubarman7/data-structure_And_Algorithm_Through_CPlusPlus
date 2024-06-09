@@ -6,16 +6,15 @@ using namespace std;
 int main()
 {
     int a;
-    cout <<"Enter the value of a: "<<endl;
-    cin>>a;
-
     int b;
-    cout<<"Enter the value of b: "<<endl;
+    char op;
+
+    cout <<"Enter the exprssion and separate it with spaces: "<<endl;
+    cin>>a;
+    cin>>op;
     cin>>b;
 
-    char op;
-    cout<<"Enter the value of op: "<<endl;
-    cin>>op;
+    
 
 
     switch(op)

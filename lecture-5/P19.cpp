@@ -60,6 +60,10 @@ int main ()
         cout<<"Number of 50 rs notes Required: "<< rs50_note << endl;
         cout<<"Number of 20 rs notes Required: "<< rs20_note << endl;
         cout<<"Number of 1 rs notes Required: "<< rs1_note << endl;
+        cout<<endl;
+
+         cout<<"Total Number of notes Required: "<< rs100_note + rs50_note + rs20_note + rs1_note<< endl;
+
 
 
 

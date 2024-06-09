@@ -1,1 +1,2 @@
- // int answer = power();
+case '%': cout<< a % b <<endl;
+        //           break;
