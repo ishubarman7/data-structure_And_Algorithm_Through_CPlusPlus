@@ -15,7 +15,7 @@ int main ()
         // divide hogaya to not prime hain
         if(n%i==0)
         {
-            cout<< "not prime for "<< i <<endl;
+            cout<< "nUWGEWFGYUFGUQERFQEUGFEWIUGF "<< i <<endl;
         }
         else
         {
