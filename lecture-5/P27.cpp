@@ -15,8 +15,6 @@ int Number_Of_1_Bits(int n)
     n = n >> 1;
 
     }
-
-
    return count;
 }
 
