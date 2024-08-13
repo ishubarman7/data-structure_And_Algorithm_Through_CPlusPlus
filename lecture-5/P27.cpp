@@ -15,6 +15,7 @@ int Number_Of_1_Bits(int n)
     n = n >> 1;
 
     }
+
    return count;
 }
 
@@ -31,6 +32,5 @@ int main()
    int Sum_Of_number_of_1_bits = Number_Of_1_Bits(a) + Number_Of_1_Bits(b);
 
    cout<<"Number of bits: "<<Sum_Of_number_of_1_bits<<endl;
-
 
 }
