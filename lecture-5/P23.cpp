@@ -33,6 +33,7 @@ int main ()
     cin>>a;
     cin>>b;
 
+
     
     int answer = nCr(a,b);
     cout<<"nCr of "<<a<<" and "<<b<<" is "<<answer<<endl;
