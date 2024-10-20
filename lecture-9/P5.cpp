@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 int main()
 {
     char arr[5];
@@ -17,3 +15,5 @@ int main()
         cout << arr[i] << endl;
     }
 }
+
+
