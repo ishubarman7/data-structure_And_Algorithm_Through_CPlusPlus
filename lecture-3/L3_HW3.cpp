@@ -12,3 +12,6 @@ int main ()
 
     cout<<f<< " Fahrenheit is equal to: "<<c<<"\370 C"<<endl;
 }
+
+
+
