@@ -18,3 +18,5 @@ int main()
 
     cout<< "sum of numbers from 1 to " << n << " is: " << sum << endl; 
 }
+
+
