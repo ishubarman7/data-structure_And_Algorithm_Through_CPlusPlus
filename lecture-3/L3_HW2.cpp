@@ -20,6 +20,3 @@ cout<< "sum of prime numbers from 0 to "<<n<< "is: "<< sum <<endl;
 }
 
 
-
-
-
