@@ -27,6 +27,7 @@ int main() {
     }
  //method_2 by using multiple else if operator
 
+
 /* 
 
  if(a>0) { 
